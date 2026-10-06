@@ -10,12 +10,12 @@ from sklearn.model_selection import train_test_split
 
 
 # ============================================================
-# HOSPITAL EMERGENCY RISK PREDICTION
+# HealthGuard System 
 # VISUALIZATION DASHBOARD
 # ============================================================
 
 print("\n" + "=" * 70)
-print("HOSPITAL EMERGENCY RISK PREDICTION")
+print("HealthGuard System")
 print("MODEL EVALUATION DASHBOARD")
 print("=" * 70)
 
@@ -66,7 +66,7 @@ print("F1-Score  :", f"{best_f1:.2f}%")
 # ============================================================
 
 df = pd.read_csv(
-    "dataset/acutelines_synthetic.csv"
+    "dataset/data_synthetic.csv"
 )
 
 # ============================================================
@@ -96,7 +96,7 @@ fig, axes = plt.subplots(
 )
 
 fig.suptitle(
-    "Hospital Emergency Risk Prediction\n"
+    "HealthGuard System\n"
     "Machine Learning Model Evaluation",
     fontsize=20,
     fontweight="bold"
