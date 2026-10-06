@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # ============================================================
 
 print("\n" + "=" * 65)
-print("HealthGuard System")
+print("HealthGuard SYSTEM")
 print("=" * 65)
 
 
@@ -235,7 +235,7 @@ if choice == "1":
 
         print(
             "Please make sure "
-            "dataset/acutelines_synthetic.csv exists."
+            "dataset/data_synthetic.csv exists."
         )
 
         raise SystemExit
