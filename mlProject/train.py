@@ -27,10 +27,10 @@ from sklearn.metrics import (
 # 1. LOAD DATASET
 # ============================================================
 
-DATASET_PATH = "dataset/acutelines_synthetic.csv"
+DATASET_PATH = "dataset/data_synthetic.csv"
 
 print("\n" + "=" * 70)
-print("HOSPITAL EMERGENCY RISK PREDICTION")
+print("HealthGuard system")
 print("=" * 70)
 
 print("\nLoading dataset...")
