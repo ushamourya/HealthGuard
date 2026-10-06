@@ -6,12 +6,12 @@ import matplotlib.pyplot as plt
 
 
 # ============================================================
-# HOSPITAL EMERGENCY RISK PREDICTION SYSTEM
+
 # EXISTING + NEW PATIENT
 # ============================================================
 
 print("\n" + "=" * 65)
-print("HOSPITAL EMERGENCY RISK PREDICTION SYSTEM")
+print("HealthGuard System")
 print("=" * 65)
 
 
