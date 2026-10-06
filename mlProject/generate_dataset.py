@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # ============================================================
-# HOSPITAL EMERGENCY RISK PREDICTION
+
 # SYNTHETIC DATASET GENERATOR
 # ============================================================
 
@@ -352,7 +352,7 @@ for column in [
 # ============================================================
 
 output_file = (
-    "dataset/acutelines_synthetic.csv"
+    "dataset/data_synthetic.csv"
 )
 
 df.to_csv(
@@ -367,7 +367,7 @@ df.to_csv(
 print("\n" + "=" * 60)
 
 print(
-    "SYNTHETIC ACUTELINES DATASET CREATED"
+    "SYNTHETIC DATASET CREATED"
 )
 
 print("=" * 60)
